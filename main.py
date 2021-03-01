@@ -7,7 +7,7 @@ import pandas as pd
 
 def extract(year):
     headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'}
-    url = f'http://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/FRE/DADOS/fre_cia_aberta_{year}.zip'
+    url = f'https://www.indeed.com/jobs?q=Rov&start={page}'
     r = requests.get(url, headers)
     # return r.status_code > Check response
     # print(extract(0)) check response
